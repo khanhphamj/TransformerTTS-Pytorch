@@ -1,0 +1,19 @@
+{
+  "dataset_name": "doof-ferb/vlsp2020_vinai_100h",
+  "cache_dir": "./dataset_cache",
+  "split": "train",
+
+  "sample_rate": 16000,
+  "n_mels": 80,
+
+  "d_model": 256,
+  "nhead": 4,
+  "num_layers": 4,
+  "dim_feedforward": 1024,
+  "dropout": 0.05,
+
+  "batch_size": 8,
+  "learning_rate": 5e-5,
+  "num_epochs": 10,
+  "grad_clip": 0.5
+}
